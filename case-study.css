@@ -10,6 +10,10 @@
     position: relative;
 }
 
+.case-study-page-header .container {
+    position: relative;
+}
+
 .back-link {
     display: inline-block;
     color: var(--dark-grey);
@@ -47,6 +51,23 @@
     color: var(--black);
     line-height: 1.5;
     max-width: 900px;
+}
+
+.case-study-hero-image {
+    background-color: var(--white);
+    padding: 0;
+    width: 100%;
+}
+
+.case-study-hero-image .container {
+    padding: 0;
+    max-width: 100%;
+}
+
+.case-study-hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .case-study-content {
@@ -303,18 +324,20 @@
     max-width: 598px;
 }
 
+/* Title Container with Logo */
+.case-study-title-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
 /* Logo Image - UPS */
-.case-study-ups .case-study-page-header::before {
-    content: '';
-    position: absolute;
-    left: 96px;
-    top: 128px;
+.case-study-logo {
     width: 81px;
     height: 96px;
-    background-image: url('case-study-assets/ups/image35.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 /* Logo Image - Currant */
@@ -398,9 +421,7 @@
     }
 
     /* Logo positioning for mobile - UPS */
-    .case-study-ups .case-study-page-header::before {
-        left: 20px;
-        top: 137px;
+    .case-study-ups .case-study-logo {
         width: 69px;
         height: 82.8px;
     }
@@ -631,9 +652,7 @@
     }
 
     /* Logo positioning for tablet - UPS */
-    .case-study-ups .case-study-page-header::before {
-        left: 24px;
-        top: 137px;
+    .case-study-ups .case-study-logo {
         width: 69px;
         height: 82.8px;
     }

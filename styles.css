@@ -309,6 +309,17 @@ body {
     width: 100%;
 }
 
+.case-study-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.3s ease;
+}
+
+.case-study-link:hover {
+    opacity: 0.9;
+}
+
 .case-study:last-child {
     margin-bottom: 0;
 }

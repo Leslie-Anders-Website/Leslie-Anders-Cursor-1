@@ -1,0 +1,848 @@
+/* Case Study Page Styles */
+
+.case-study-page {
+    background-color: var(--white);
+}
+
+.case-study-page-header {
+    background-color: var(--white);
+    padding: var(--spacing-xl) var(--spacing-md);
+    position: relative;
+}
+
+.back-link {
+    display: inline-block;
+    color: var(--dark-grey);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: var(--spacing-md);
+    transition: opacity 0.3s ease;
+}
+
+.back-link:hover {
+    opacity: 0.7;
+}
+
+.case-study-page-subtitle {
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--light-grey);
+    margin-bottom: 6px;
+    line-height: 1.3;
+    letter-spacing: 0.44px;
+}
+
+.case-study-page-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: var(--spacing-md);
+    line-height: 36px;
+}
+
+.case-study-page-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+    line-height: 1.5;
+    max-width: 900px;
+}
+
+.case-study-content {
+    background-color: var(--white);
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.case-study-placeholder {
+    padding: var(--spacing-xxl);
+    text-align: center;
+    color: var(--light-grey);
+}
+
+/* My Roles Section */
+.case-study-roles {
+    margin: 30px 0;
+    padding: 0;
+}
+
+.case-study-roles p {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--dark-grey);
+    line-height: 1.25;
+}
+
+.case-study-roles strong {
+    font-weight: 700;
+}
+
+/* Goals and Challenges Grid */
+.goals-challenges-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin: 60px 0;
+}
+
+.goals-section {
+    background-color: var(--white);
+    padding: 12px 96px;
+    min-height: 375px;
+}
+
+.challenges-section {
+    background-color: var(--dark-grey);
+    padding: 12px 96px;
+    min-height: 415px;
+}
+
+.section-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--dark-grey);
+    margin-bottom: 30px;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+}
+
+.challenges-section .section-heading {
+    color: var(--white);
+}
+
+.goals-section p,
+.goals-section li {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--light-grey);
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+.challenges-section li {
+    font-size: 20px;
+    font-weight: 400;
+    color: #cfcfcf;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+.goals-section ul,
+.challenges-section ul {
+    list-style: disc;
+    padding-left: 0;
+    margin-left: calc(20px * 1.5 * 1);
+}
+
+.goals-section ul ul,
+.challenges-section ul ul {
+    margin-left: calc(20px * 1.5 * 2);
+}
+
+.goals-section li,
+.challenges-section li {
+    margin-bottom: 0;
+}
+
+/* Strategy Section */
+.strategy-section {
+    background-color: var(--white);
+    padding: 12px 96px;
+    margin: 60px 0;
+}
+
+.strategy-section .section-heading {
+    color: var(--dark-grey);
+}
+
+.strategy-section li {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--dark-grey);
+    line-height: 1.25;
+    margin-bottom: 0;
+}
+
+.strategy-section ul {
+    list-style: disc;
+    padding-left: 0;
+    margin-left: calc(18px * 1.5 * 1);
+}
+
+.strategy-section ul ul {
+    margin-left: calc(18px * 1.5 * 2);
+}
+
+/* Improvements Section */
+.improvements-section {
+    margin: 60px 0;
+    padding: 0 96px;
+}
+
+.improvements-section .section-heading {
+    color: var(--dark-grey);
+    margin-bottom: 30px;
+}
+
+.improvements-section li {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--light-grey);
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+.improvements-section ul {
+    list-style: disc;
+    padding-left: 0;
+    margin-left: calc(20px * 1.5 * 1);
+    margin-bottom: 30px;
+}
+
+.improvements-image {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.improvements-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Improvements and Outcome Grid */
+.improvements-outcome-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    margin: 60px 0;
+}
+
+.improvements-outcome-grid .improvements-section {
+    margin: 0;
+    padding: 0 96px;
+}
+
+.improvements-outcome-grid .outcome-section {
+    margin: 0;
+    padding: 0 96px;
+}
+
+/* Outcome Section */
+.outcome-section {
+    margin: 60px 0;
+    padding: 0 96px;
+}
+
+.outcome-section .section-heading {
+    color: var(--dark-grey);
+    margin-bottom: 15px;
+}
+
+.outcome-section li {
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--light-grey);
+    line-height: 1.5;
+    letter-spacing: 0.12px;
+    margin-bottom: 0;
+}
+
+.outcome-section li strong {
+    font-weight: 700;
+    color: var(--dark-grey);
+}
+
+.outcome-section ul {
+    list-style: disc;
+    padding-left: 0;
+    margin-left: calc(24px * 1.5 * 1);
+}
+
+.outcome-section ul ul {
+    margin-left: calc(24px * 1.5 * 3);
+}
+
+/* Image Sections */
+.case-study-image-section {
+    margin: 60px 0;
+    position: relative;
+}
+
+.case-study-full-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.case-study-inline-image {
+    width: 100%;
+    max-width: 671px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
+
+.case-study-overlay-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-caption-text {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--light-grey);
+    line-height: 1.4;
+    letter-spacing: 0.14px;
+    margin-top: 20px;
+    max-width: 598px;
+}
+
+/* Logo Image - UPS */
+.case-study-ups .case-study-page-header::before {
+    content: '';
+    position: absolute;
+    left: 96px;
+    top: 128px;
+    width: 81px;
+    height: 96px;
+    background-image: url('case-study-assets/ups/image35.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Logo Image - Currant */
+.case-study-currant .case-study-page-header::before {
+    content: '';
+    position: absolute;
+    left: 96px;
+    top: 145px;
+    width: 240px;
+    height: 57px;
+    background-image: url('case-study-assets/currant/image18.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Logo Image - House Party */
+.case-study-houseparty .case-study-page-header::before {
+    content: '';
+    position: absolute;
+    left: 102px;
+    top: 127px;
+    width: 245px;
+    height: 92px;
+    background-image: url('case-study-assets/houseparty/download24.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Responsive adjustments - Mobile */
+@media (max-width: 767px) {
+    .case-study-page-header {
+        padding: var(--spacing-md) 16px;
+        padding-left: 100px;
+    }
+
+    .case-study-page-subtitle {
+        font-size: 22px;
+        left: calc(25% + 11.5px);
+    }
+
+    .case-study-page-title {
+        font-size: 16px;
+        line-height: 1.65;
+        color: var(--dark-grey);
+    }
+
+    .case-study-ups .case-study-page-title {
+        max-width: 265px;
+    }
+
+    .case-study-currant .case-study-page-title {
+        max-width: 357px;
+    }
+
+    .case-study-houseparty .case-study-page-title {
+        max-width: 357px;
+    }
+
+    /* Improvements and Outcome Grid - Stacked on mobile */
+    .improvements-outcome-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .improvements-outcome-grid .improvements-section {
+        padding: 12px 16px;
+        width: 390px;
+        margin-left: 0;
+    }
+
+    .improvements-outcome-grid .outcome-section {
+        padding: 12px 16px;
+        width: 390px;
+        margin-left: 0;
+    }
+
+    .case-study-page-description {
+        font-size: 16px;
+    }
+
+    /* Logo positioning for mobile - UPS */
+    .case-study-ups .case-study-page-header::before {
+        left: 20px;
+        top: 137px;
+        width: 69px;
+        height: 82.8px;
+    }
+
+    /* Logo positioning for mobile - Currant */
+    .case-study-currant .case-study-page-header::before {
+        left: 75px;
+        top: 149px;
+        width: 240px;
+        height: 57px;
+    }
+
+    /* Logo positioning for mobile - House Party */
+    .case-study-houseparty .case-study-page-header::before {
+        left: 75px;
+        top: 125px;
+        width: 245px;
+        height: 92px;
+    }
+
+    .case-study-content .container {
+        padding: 0 16px;
+        max-width: 390px;
+    }
+
+    /* My Roles */
+    .case-study-roles {
+        margin: 30px 0;
+        padding: 0;
+    }
+
+    .case-study-roles p {
+        font-size: 16px;
+        max-width: 358px;
+    }
+
+    /* Goals and Challenges - Stacked on mobile */
+    .goals-challenges-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .goals-section {
+        padding: 12px 16px;
+        min-height: auto;
+        width: 390px;
+        margin-left: 0;
+    }
+
+    .challenges-section {
+        padding: 12px 16px;
+        min-height: auto;
+        width: 390px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .section-heading {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .goals-section p,
+    .goals-section li {
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--dark-grey);
+    }
+
+    .challenges-section li {
+        font-size: 16px;
+        font-weight: 400;
+        color: #cfcfcf;
+    }
+
+    .goals-section ul,
+    .challenges-section ul {
+        margin-left: calc(16px * 1.5 * 1);
+    }
+
+    .goals-section ul ul,
+    .challenges-section ul ul {
+        margin-left: calc(16px * 1.5 * 2);
+    }
+
+    /* Strategy Section */
+    .strategy-section {
+        padding: 12px 16px;
+        margin: 0;
+        width: 390px;
+        margin-left: 0;
+    }
+
+    .strategy-section .section-heading {
+        font-size: 32px;
+        margin-bottom: 6px;
+    }
+
+    .strategy-section li {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 6px;
+    }
+
+    .strategy-section ul {
+        margin-left: calc(16px * 1.5 * 1);
+    }
+
+    .strategy-section ul ul {
+        margin-left: calc(16px * 1.5 * 2);
+    }
+
+    /* Improvements Section */
+    .improvements-section {
+        margin: 0;
+        padding: 0 16px;
+        width: 358px;
+    }
+
+    .improvements-section .section-heading {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .improvements-section li {
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--dark-grey);
+        margin-bottom: 0;
+    }
+
+    .improvements-section ul {
+        margin-left: calc(16px * 1.5 * 1);
+        margin-bottom: 30px;
+    }
+
+    .improvements-image {
+        margin-top: 0;
+    }
+
+    .improvements-image img {
+        max-width: 316px;
+    }
+
+    /* Outcome Section */
+    .outcome-section {
+        margin: 0;
+        padding: 12px 16px;
+        width: 390px;
+    }
+
+    .outcome-section .section-heading {
+        font-size: 32px;
+        margin-bottom: 6px;
+    }
+
+    .outcome-section li {
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--dark-grey);
+        margin-bottom: 6px;
+    }
+
+    .outcome-section ul {
+        margin-left: calc(16px * 1.5 * 1);
+    }
+
+    .outcome-section ul ul {
+        margin-left: calc(16px * 1.5 * 3);
+    }
+
+    /* Image Sections */
+    .case-study-image-section {
+        margin: 0;
+    }
+
+    .image-caption-text {
+        font-size: 14px;
+        max-width: 358px;
+        margin-top: 0;
+        color: var(--dark-grey);
+    }
+
+    /* Image sizing for mobile */
+    .case-study-image-section img.case-study-full-image {
+        width: 100%;
+        max-width: 390px;
+    }
+
+    .case-study-inline-image {
+        max-width: 345px;
+    }
+}
+
+/* Responsive adjustments - Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .case-study-page-header {
+        padding: var(--spacing-xl) 24px;
+        padding-left: 100px;
+    }
+
+    .case-study-page-subtitle {
+        font-size: 22px;
+    }
+
+    .case-study-ups .case-study-page-subtitle {
+        left: calc(12.5% + 21px);
+    }
+
+    .case-study-currant .case-study-page-subtitle {
+        left: calc(37.5% + 15px);
+    }
+
+    .case-study-houseparty .case-study-page-subtitle {
+        left: calc(37.5% + 15px);
+    }
+
+    .case-study-page-title {
+        font-size: 22px;
+        line-height: 1.3;
+        letter-spacing: 0.44px;
+    }
+
+    .case-study-page-description {
+        font-size: 16px;
+    }
+
+    /* Logo positioning for tablet - UPS */
+    .case-study-ups .case-study-page-header::before {
+        left: 24px;
+        top: 137px;
+        width: 69px;
+        height: 82.8px;
+    }
+
+    /* Logo positioning for tablet - Currant */
+    .case-study-currant .case-study-page-header::before {
+        left: 16px;
+        top: 154px;
+        width: 240px;
+        height: 57px;
+    }
+
+    /* Logo positioning for tablet - House Party */
+    .case-study-houseparty .case-study-page-header::before {
+        left: 24px;
+        top: 131px;
+        width: 245px;
+        height: 92px;
+    }
+
+    .case-study-content .container {
+        padding: 0 24px;
+    }
+
+    /* My Roles */
+    .case-study-roles {
+        margin: 30px 0;
+        padding: 0 26px;
+    }
+
+    .case-study-roles p {
+        font-size: 18px;
+        max-width: 718px;
+    }
+
+    /* Goals and Challenges - Two column on tablet */
+    .goals-challenges-grid {
+        grid-template-columns: 370px 370px;
+        gap: 14px;
+        margin: 30px 0;
+        padding: 0;
+    }
+
+    .goals-section {
+        padding: 12px 24px;
+        min-height: auto;
+    }
+
+    .challenges-section {
+        padding: 12px 24px;
+        min-height: auto;
+    }
+
+    .section-heading {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .goals-section p,
+    .goals-section li {
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .challenges-section li {
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .goals-section ul,
+    .challenges-section ul {
+        margin-left: calc(18px * 1.5 * 1);
+    }
+
+    .goals-section ul ul,
+    .challenges-section ul ul {
+        margin-left: calc(18px * 1.5 * 2);
+    }
+
+    /* Strategy Section */
+    .strategy-section {
+        padding: 12px 24px;
+        margin: 30px 0;
+        max-width: 370px;
+        margin-left: calc(37.5% + 82px);
+    }
+
+    .strategy-section .section-heading {
+        font-size: 40px;
+    }
+
+    .strategy-section li {
+        font-size: 18px;
+    }
+
+    .strategy-section ul {
+        margin-left: calc(18px * 1.5 * 1);
+    }
+
+    .strategy-section ul ul {
+        margin-left: calc(18px * 1.5 * 2);
+    }
+
+    /* Improvements and Outcome Grid - Stacked on tablet */
+    .improvements-outcome-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .improvements-outcome-grid .improvements-section {
+        padding: 12px 24px;
+        width: 768px;
+        margin-left: 0;
+    }
+
+    .improvements-outcome-grid .outcome-section {
+        padding: 12px 24px;
+        width: 768px;
+        margin-left: 0;
+    }
+
+    /* Improvements Section */
+    .improvements-section {
+        margin: 30px 0;
+        padding: 0 23px;
+    }
+
+    .improvements-section .section-heading {
+        font-size: 40px;
+        margin-bottom: 6px;
+    }
+
+    .improvements-section li {
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 6px;
+    }
+
+    .improvements-section ul {
+        margin-left: calc(18px * 1.5 * 1);
+        margin-bottom: 6px;
+    }
+
+    .improvements-image {
+        margin-top: 0;
+    }
+
+    .improvements-image img {
+        max-width: 588px;
+    }
+
+    /* Outcome Section */
+    .outcome-section {
+        margin: 0;
+        padding: 12px 24px;
+        width: 100%;
+    }
+
+    .outcome-section .section-heading {
+        font-size: 32px;
+        margin-bottom: 6px;
+    }
+
+    .outcome-section li {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .outcome-section ul {
+        margin-left: calc(16px * 1.5 * 1);
+    }
+
+    .outcome-section ul ul {
+        margin-left: calc(16px * 1.5 * 3);
+    }
+
+    /* Image Sections */
+    .case-study-image-section {
+        margin: 30px 0;
+    }
+
+    .image-caption-text {
+        font-size: 14px;
+        max-width: 562px;
+        margin-top: 0;
+    }
+
+    /* Image positioning adjustments */
+    .case-study-image-section img.case-study-full-image {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .case-study-page-header {
+        padding: var(--spacing-xxl) var(--spacing-xl);
+        padding-left: 200px;
+    }
+
+    .case-study-page-title {
+        font-size: 32px;
+    }
+
+    .case-study-page-description {
+        font-size: 16px;
+    }
+
+    .case-study-content .container {
+        max-width: 1440px;
+        padding: 0 96px;
+    }
+}
